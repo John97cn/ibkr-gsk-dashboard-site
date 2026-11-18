@@ -1,13 +1,11 @@
-Warning: fs was declared with const; use let for reassignable variables.
-Warning: bytes was declared with const; use let for reassignable variables.
-const CACHE = "ibkr-gsk-dashboard-v13";
+const CACHE = "ibkr-gsk-dashboard-v14";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/apple-touch-icon.png",
+  "./icons/gsk2-pwa-192-v4.png",
+  "./icons/gsk2-pwa-512-v4.png",
+  "./icons/gsk2-home-180-v4.png",
 ];
 
 self.addEventListener("install", (event) => {
