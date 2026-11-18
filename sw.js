@@ -1,11 +1,11 @@
-const CACHE = "ibkr-gsk-dashboard-v14";
+const CACHE = "ibkr-gsk-dashboard-v15";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./icons/gsk2-pwa-192-v4.png",
-  "./icons/gsk2-pwa-512-v4.png",
-  "./icons/gsk2-home-180-v4.png",
+  "./icons/gsk2-pwa-192-v5.png",
+  "./icons/gsk2-pwa-512-v5.png",
+  "./icons/gsk2-home-180-v5.png",
 ];
 
 self.addEventListener("install", (event) => {
